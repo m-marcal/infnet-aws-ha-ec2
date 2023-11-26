@@ -71,5 +71,5 @@ variable "asg_max_size" {
 variable "asg_min_size" {
   description = "Minimum size of the Auto Scaling Group"
   type        = number
-  default     = 2
+  default     = 1
 }
